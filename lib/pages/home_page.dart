@@ -31,10 +31,11 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Row(
                   children: [
-                    CircleAvatar(
+                    const CircleAvatar(
                       radius: 35,backgroundImage: AssetImage('assets/images/aaa.jpeg'),
 
-                    )
+                    ),
+
                   ],
                 )
               ],
