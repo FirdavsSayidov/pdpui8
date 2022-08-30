@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
                 Row(
                   children: [
                    SizedBox(width: 10,height: 20,),
-                     CircleAvatar(
+                     const CircleAvatar(
                       radius: 25,backgroundImage: AssetImage('assets/images/user_5.jpeg'),
                     ),
                     Expanded(
