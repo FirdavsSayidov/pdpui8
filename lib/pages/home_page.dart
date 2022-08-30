@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
 
                   ],
                 ),
-                SizedBox(height: 10,),
+                SizedBox( height: 10,),
             Container(padding: EdgeInsets.only(top: 10,left: 40,bottom: 10,right: 20),
               child: Row(
                 children: [
